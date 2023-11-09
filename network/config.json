@@ -14,7 +14,7 @@
   },
   "legend": {
     "edgeLabel": "relation",
-    "colorLabel": "Modularity class",
+    "colorLabel": "Eccentricity",
     "nodeLabel": "character"
   },
   "features": {
@@ -40,10 +40,10 @@
       "defaultLabelSize": 14
     },
     "graphProperties": {
-      "maxEdgeSize": 0.5,
-      "minEdgeSize": 0.2,
-      "minNodeSize": 1,
-      "maxNodeSize": 7
+      "maxEdgeSize": 10,
+      "minEdgeSize": 7,
+      "minNodeSize": 30,
+      "maxNodeSize": 60
     },
     "mouseProperties": {
       "maxRatio": 20,
