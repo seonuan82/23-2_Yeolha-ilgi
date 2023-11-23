@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+.container{
+    box-sizing: border-box;
+    padding: 80px 20px 20px 20px;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 230, 180, 0.7);
+    background-size: cover;
+}
+
+iframe{
+    width:800px;
+    height:450px;
+    float:left;
+    margin-right:10px;
+}
+
+.conversation{
+    height:570px;
+    text-align: center;
+    line-height:1.6;
+}
+
+.conversation p{
+    text-align: left;
+    font-size:18px;
+    font-weight: lighter;
+    line-height: 1.3;
+    margin:10px 0px 10px 0px;
+}
+
+.relation{
+    text-align: center;
+    line-height:1.6;
+}
+
+.relation p{
+    text-align: left;
+    font-size:18px;
+    font-weight: lighter;
+    line-height: 1.3;
+    margin:10px 0px 10px 0px;
+}
+
+img{
+    width:800px;
+    height:700px;
+    float:left;
+    margin-right:10px;
+    margin-top:5px;
+}
+
+table{
+    margin:5px;
+    border: solid 2pt rosybrown;
+    border-collapse:collapse;
+    font-size: 15px;
+    width: 650px;
+}
+td, th{
+    padding:3px;
+    border: solid 2pt rosybrown;
+}
+caption{
+    font-size:20px;
+    text-align:left;
+    font-weight:bold;
+    line-height:1.3;
+    margin-bottom:5px;
+    margin-top:10px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 40px;
+    background-color: rgb(45, 27, 9);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    text-decoration: none;
+    margin-left: 20px;
+    margin-right: 95px;
+}
+
+.navber a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+    transition: .3s;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+
+
+h{
+    color: rgb(45, 27, 9);
+    font-size: 100px;
+}
+
+p{
+    color: rgb(45, 27, 9);
+    font-size: 16px;
+    line-height: 15px;
+    margin-top: 5px;
+}
+
+footer{
+    box-sizing: border-box;
+    min-width: 100%;
+    padding: 10px 20px;
+    background-color: rgb(45, 27, 9);
+    color:#fff;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
