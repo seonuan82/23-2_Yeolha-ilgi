@@ -6,6 +6,7 @@
 민족문화추진회의 후신인 한국고전번역원의 사용 허락을 받아 사용하였으며, 
 전문은 한국고전DB 또는 국립중앙도서관 디지털화 자료를 확인해 주세요.
 
+-----------------------------------------------------------------------------------------
 
 This repository contains the work of the Yeolha-ilgi team that entered the National Library of Korea Data Visualization Contest.
 'Yeolha-ilgi' is an educational web content created around 'Yeolha-ilgi', and contains visualizations of relationships between characters and keywords in 'Yeolha-ilgi'.
